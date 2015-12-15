@@ -9,11 +9,11 @@ var app = require('../app');
 var User = require('../models/user');
 
 
-
 var clearDb = function(){
   User.remove({}, function(err) {
   });
 };
+
 
 
 describe('user routes', function(){

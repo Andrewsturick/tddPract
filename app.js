@@ -18,6 +18,7 @@ mongoose.connect(mongoUrl, function(err) {
 var app = express();
 
 app.use(morgan('dev'));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
@@ -33,5 +34,6 @@ app.use(function(req, res) {
 app.listen(PORT, function() {
   console.log('Listening on port: ', PORT);
 });
+
 
 module.exports = app;
