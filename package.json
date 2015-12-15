@@ -1,0 +1,32 @@
+{
+  "name": "redditclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrewsturick/tddPract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrewsturick/tddPract/issues"
+  },
+  "homepage": "https://github.com/Andrewsturick/tddPract#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "chai": "^3.4.1",
+    "express": "^4.13.3",
+    "jwt-simple": "^0.4.0",
+    "mocha": "^2.3.4",
+    "mongoose": "^4.3.1",
+    "morgan": "^1.6.1"
+  }
+}
